@@ -1,0 +1,14 @@
+:root {
+    --backgroundcolor: rgb(222, 236, 255);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--backgroundcolor);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
