@@ -12,3 +12,16 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
+
+.vidbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--vidbackground);
+    color: white;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh;
+}
