@@ -3,7 +3,7 @@
 :root {
     --backgroundcolor: rgb(222, 236, 255);
     --background: rgba(0, 0, 0, .6);
-    --vidbackground: rgba(0, 0, 0, .25);
+    --vidbackground: rgba(0, 0, 0, .4);
     --textcolor: #b6b6b6;
     --textbarcolor: #b1b1b1;
     --textcolordark: #2d2e33;
@@ -42,6 +42,11 @@ body {
     min-height: 50vh;
 }
 
+.vidbox h1 {
+    position: absolute;
+    bottom: 0;
+}
+
 .content{
     display: block;
     text-align: center;
@@ -57,8 +62,9 @@ body {
 
 .content p{
     font-size: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
 }
 
 .video-bg {
@@ -72,7 +78,7 @@ body {
 }
 
 .wrapper {
-    margin: 150px auto;
+    margin: 70px auto;
     width: 70%;
 }
 
@@ -87,8 +93,9 @@ body {
 
 .text-box-left {
     color: var(--textcolordark);
-    margin-bottom: 220px;
+    margin-bottom: 110px;
     text-align: left;
+    width: 70%;
 }
 
 .img-right {
@@ -96,14 +103,15 @@ body {
     float: left;
     border: 2px solid var(--textcolordark);
     border-radius: 5px;
-    margin-left: 15px;
     margin-bottom: 10px;
 }
 
 .text-box-right {
     color: var(--textcolordark);
-    margin-bottom: 220px;
-    text-align: left;
+    margin-bottom: 20px;
+    text-align: right;
+    float: right;
+    width: 30%;
 }
 
 .text-box-left h2,
@@ -169,7 +177,6 @@ ul {
 
 .footer-col ul li a {
     font-size: 16px;
-    text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
@@ -205,6 +212,7 @@ ul {
 }
 
 /* responsive */
+
 @media(max-width: 767px) {
     .footer-col {
         width: 50%;
@@ -324,7 +332,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 60px 0 60px;
+    margin: 0px 60px 0 60px;
 }
 
 .img-roll .box{

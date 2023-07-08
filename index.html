@@ -24,7 +24,7 @@
         </header>
 
         <div class="vidbox">
-            <!-- <h1>Liljens Ride Terapi</h1> -->
+            <h1>Velkommen til<br>Liljens Ride Terapi</h1>
             <video class="video-bg" autoplay muted loop>
                 <source src="videos/index.mp4" type="video/mp4">
             </video>
@@ -119,12 +119,11 @@
                         </ul>
                     </div>
                     <div class="footer-col">
-                        <h4>title</h4>
+                        <h4>Kontakt</h4>
                         <ul>
-                            <li><a href="#">topic</a></li>
-                            <li><a href="#">topic</a></li>
-                            <li><a href="#">topic</a></li>
-                            <li><a href="#">topic</a></li>
+                            <li><a> Jeanette Bjørnager Jensen</a></li>
+                            <li><a>(+45) 61731818</a></li>
+                            <li><a>gl.kongevej43@gmail.com</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
@@ -139,5 +138,21 @@
                 </div>
             </div>
         </footer>
+        <script type="text/javascript">
+            const lowres = window.innerWidth < 800
+            if (!lowres) {
+                var lastScrollTop = 0;
+                navbar = document.getElementById("navbar");
+                window.addEventListener("scroll", function() {
+                    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    if (scrollTop > lastScrollTop) {
+                        navbar.style.top = "-150px";
+                    } else {
+                        navbar.style.top = "0";
+                    }
+                    lastScrollTop = scrollTop;
+                })
+            }
+        </script>
     </body>
 </html>
