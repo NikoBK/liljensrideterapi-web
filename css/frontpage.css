@@ -1,25 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-:root {
-    --backgroundcolor: rgb(222, 236, 255);
-    --background: rgba(0, 0, 0, .6);
-    --vidbackground: rgba(0, 0, 0, .4);
-    --textcolor: #b6b6b6;
-    --textbarcolor: #b1b1b1;
-    --textcolordark: #2d2e33;
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 html {
     height: 100%;
 }
 
 body {
     margin: 0;
-    background: var(--backgroundcolor);
+    /* Body background left out for curvature background. */
+    /* background: var(--backgroundcolor); */
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 
@@ -36,7 +24,7 @@ body {
     text-align: center;
     background: var(--vidbackground);
     color: white;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     position: relative;
     overflow: hidden;
     min-height: 50vh;
@@ -52,6 +40,7 @@ body {
     text-align: center;
     color:#2d2e33;
     margin-bottom: 80px;
+    background-color: var(--backgroundcolor);
 }
 
 .content h1{
@@ -75,6 +64,10 @@ body {
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
+}
+
+.midpage {
+    background-color: white;
 }
 
 .wrapper {
@@ -129,7 +122,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0px 60px 0 60px;
+    padding: 0px 60px 0 60px;
+    background-color: var(--backgroundcolor);
 }
 
 .img-roll .box{
