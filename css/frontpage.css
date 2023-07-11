@@ -105,7 +105,7 @@ body {
 
 .text-box-right {
     color: var(--textcolordark);
-    margin-bottom: 220px;
+    margin-bottom: 20px;
     text-align: left;
     max-width: 100%;
 }
@@ -173,6 +173,27 @@ body {
     padding-bottom: 75px;
 }
 
+.custom-shape-divider-bottom-1689086225 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 .shape-fill {
+    fill: var(--backgroundcolor);;
+}
+
 /* Handle design on larger screens. */
 @media screen and (min-width: 800px) {
     .vidbox {
@@ -194,12 +215,10 @@ body {
         border: 2px solid var(--textcolordark);
         border-radius: 5px;
         margin-left: 15px;
-        margin-bottom: 10px;
     }
     
     .text-box-right {
         color: var(--textcolordark);
-        margin-bottom: 220px;
         text-align: right;
     }
 }
