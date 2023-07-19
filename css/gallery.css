@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: normal;
+}
+
+.container .heading a{
+    color: #346eec;
+}
+
+.container .heading h3{
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #346eec;
+}
+
+.container .heading span{
+    font-weight: 100;
+}
+
+.container h1{
+    color: white;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .imgrow{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .imgrow img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #346eec;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+body span{
+    background-color: #346eec;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+.heading {
+    margin-top: 100px;
+}
