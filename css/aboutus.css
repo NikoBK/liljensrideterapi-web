@@ -1,0 +1,60 @@
+:root {
+    --fillcolor: rgb(222, 236, 255);
+}
+
+.top-box {
+    height: 125px;
+    background-color: var(--fillcolor);
+}
+
+.page-top-section {
+    margin-top: 0;
+}
+
+.page-top-section {
+    background-color: white;
+}
+
+.page-bottom-content {
+    background-color: var(--fillcolor);
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 135px;
+}
+
+.wave .shape-fill {
+    fill: var(--fillcolor);
+}
+
+.custom-shape-divider-bottom-1689086225 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 .shape-fill {
+    fill: var(--fillcolor)
+}

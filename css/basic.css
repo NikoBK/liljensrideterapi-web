@@ -12,11 +12,7 @@ body {
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/coverimage.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: white;
 }
 
 .banner{
@@ -61,7 +57,7 @@ button {
 
 .about-us {
     margin: 70px auto;
-    margin-top: 200px;
+    margin-top: 0;
     width: 70%;
 }
 
@@ -75,7 +71,7 @@ button {
 }
 
 .about-us-text {
-    color: white;
+    color: black;
     margin-bottom: 20px;
     text-align: left;
     max-width: 100%;
@@ -94,7 +90,7 @@ button {
     margin-left: auto;
     width: 70%;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .contact-us h1 {
