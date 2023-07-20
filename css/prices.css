@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --backcolor: white;
+    --fillcolor: rgb(222, 236, 255);
+    --blog-text-color: rgb(92, 116, 151);
+}
+
+.top-box {
+    height: 125px;
+    background-color: var(--fillcolor);
+}
+
+.page-top-section {
+    background-color: var(--backcolor);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.price-box-roll {
+    text-align: center;
+}
+
+.price-box {
+    display: inline-block;
+    width: 500px;
+    height: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px 11px;
+    background-color:#ececec;
+}
+
+.price-box p {
+    font-size: 1.2rem;
+}
+
+.page-bottom-section {
+    background-color: var(--backcolor);
+}
+
+.bottom-box {
+    background-color: var(--fillcolor);
+    height: 50px;
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 135px;
+}
+
+.wave .shape-fill {
+    fill: var(--fillcolor);
+}
+
+.custom-shape-divider-bottom-1689086225 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 .shape-fill {
+    fill: var(--fillcolor)
+}
+
+@media(max-width:1250px) {
+    .blog-box {
+        width: 300px;
+    }
+}
+@media(max-width:1100px) {
+    .blog-box {
+        width: 70%;
+    }
+}
+@media(max-width:550px) {
+    .blog-box {
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog {
+        padding: 20px;
+    }
+}
