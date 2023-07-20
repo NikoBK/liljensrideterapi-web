@@ -195,7 +195,7 @@ body {
 }
 
 /* Handle design on larger screens. */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .vidbox {
         min-height: 75vh;
     }
