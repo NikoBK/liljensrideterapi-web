@@ -2,6 +2,23 @@
     --fillcolor: rgb(222, 236, 255);
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    /* Body background left out for curvature background. */
+    /* background: var(--backgroundcolor); */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .top-box {
     height: 125px;
     background-color: var(--fillcolor);
