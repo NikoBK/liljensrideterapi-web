@@ -27,6 +27,24 @@ ul {
     background-color: var(--backcolor);
 }
 
+.prices-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prices-heading h3 {
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+
+.prices-heading p {
+    color: black;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -34,6 +52,7 @@ body {
 }
 
 .price-box-roll {
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -53,6 +72,49 @@ body {
 
 .page-bottom-section {
     background-color: var(--backcolor);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid var(--fillcolor);
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+body span{
+    background-color: var(--fillcolor);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
 }
 
 .bottom-box {
