@@ -71,6 +71,7 @@ body {
     background-color: white;
     border: 1px solid #ececec;
     margin: 20px;
+    height: 500px;
 }
 
 .blog img {
@@ -97,8 +98,9 @@ body {
 }
 
 .blog-text .blog-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
+    max-height: 65px;
     color: #272727;
 }
 
@@ -175,7 +177,6 @@ body {
 .custom-shape-divider-bottom-1689086225 .shape-fill {
     fill: var(--fillcolor)
 }
-
 
 @media(max-width:1250px) {
     .blog-box {
