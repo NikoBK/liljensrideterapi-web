@@ -133,6 +133,7 @@ body {
 
 .bottom-box {
     background-color: var(--fillcolor);
+    height: 50px;
 }
 
 .wave {
