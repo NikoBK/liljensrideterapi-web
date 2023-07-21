@@ -35,6 +35,7 @@ ul {
     margin-top: 50px;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .prices-heading h3 {
@@ -60,9 +61,8 @@ body {
 
 .price-box {
     display: inline-block;
-    width: 30%;
-    height: 20%;
-    /*height: 240px;*/
+    width: 500px;
+    height: 240px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 60px 11px;
@@ -182,14 +182,24 @@ button:hover{
     
     .price-box {
         display: inline-block;
-        width: 30%;
-        height: 15%;
+        width: 300px;
+        height: 150px;
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 30px;
         padding: 60px 11px;
         background-color:#ececec;
     }
+
+    .price-box h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .price-box p {
+        font-size: 1.0rem;
+        top: 0;
+    }
+
 }
 @media(max-width:1100px) {
     .blog-box {
