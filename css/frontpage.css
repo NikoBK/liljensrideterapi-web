@@ -6,17 +6,35 @@ html {
 
 body {
     margin: 0;
-    /* Body background left out for curvature background. */
-    /* background: var(--backgroundcolor); */
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-
     min-height: 100%;
-
     display: flex;
     flex-direction: column;
 }
 
+/*
+    Order:
+    Navbar (independent stylesheet)
+    vidbox
+    introduction
+    content
+    wave
+    midpage
+    wrapper
+    img-left
+    text-box-left
+    img-right
+    text-box-right
+    custom-shape-divider-bottom-1689086225
+    img-roll
+    box
+    imgrow (3)
+    endpage
+    footer
+*/
+
+/* Video background box */
 .vidbox {
     display: flex;
     justify-content: center;
@@ -35,6 +53,17 @@ body {
     bottom: 0;
 }
 
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Introduction text */
 .introduction {
     background-color: var(--backgroundcolor);
 }
@@ -60,16 +89,28 @@ body {
     margin-bottom: 0;
 }
 
-.video-bg {
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
+/* Top page wave pattern */
+.wave {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 135px;
+}
+
+.wave .shape-fill {
+    fill: white;
+}
+
+/* Two images */
 .midpage {
     background-color: white;
 }
@@ -95,6 +136,11 @@ body {
     width: 70%;
 }
 
+.text-box-left h2,
+.text-box-right h2 {
+    font-size: 42px;
+}
+
 .img-right {
     max-width: 400px;
     float: left;
@@ -110,16 +156,33 @@ body {
     max-width: 100%;
 }
 
-.text-box-left h2,
-.text-box-right h2 {
-    font-size: 42px;
-}
-
 .text-box-left p,
 .text-box-right p {
     font-size: 16px;
 }
 
+.custom-shape-divider-bottom-1689086225 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 .shape-fill {
+    fill: var(--backgroundcolor);;
+}
+
+/* 3 Images near the page bottom */
 .img-roll {
     display: flex;
     flex-direction: column;
@@ -148,50 +211,9 @@ body {
     border: 2px solid var(--textcolordark);
 }
 
-.wave {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(117% + 1.3px);
-    height: 135px;
-}
-
-.wave .shape-fill {
-    fill: white;
-}
-
 .endpage {
     background-color: var(--backgroundcolor);
     padding-bottom: 75px;
-}
-
-.custom-shape-divider-bottom-1689086225 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1689086225 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 130px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1689086225 .shape-fill {
-    fill: var(--backgroundcolor);;
 }
 
 /* Handle design on larger screens. */

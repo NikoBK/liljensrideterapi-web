@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/frontpage.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
     <body>
+        <!-- This is the navbar, should always be 1:1 with other pages. -->
         <header id="navbar">   
             <a href="test.html">
                 <img src="images/logo.png" class="logo-img">
@@ -159,22 +159,21 @@
             </div>
         </footer>
 
-        <!-- Javascript -->
+        <!-- <script src="js/index.js"></script> -->
         <script type="text/javascript">
-            const lowres = window.innerWidth < 800
-            if (!lowres) {
-                var lastScrollTop = 0;
-                navbar = document.getElementById("navbar");
+            navbar = document.getElementById("navbar");
                 window.addEventListener("scroll", function() {
                     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                    if (scrollTop > lastScrollTop) {
-                        navbar.style.top = "-150px";
+                    if (scrollTop < 900) {
+                        
+                        navbar.classList.remove('nav-background-dark');
+                        navbar.classList.add('nav-background-light');
                     } else {
-                        navbar.style.top = "0";
+                        navbar.classList.remove('nav-background-light');
+                        navbar.classList.add('nav-background-dark');
                     }
-                    lastScrollTop = scrollTop;
                 })
-            }
         </script>
+
     </body>
 </html>

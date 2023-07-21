@@ -34,6 +34,10 @@ body {
     background-color: white;
 }
 
+.about-us img {
+    max-width: 30%;
+}
+
 .img-roll {
     display: flex;
     flex-direction: column;
@@ -46,8 +50,6 @@ body {
 
 .img-roll .box{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -59,8 +61,7 @@ body {
 }
 
 .img-roll .box .imgrow img{
-    width: 530px;
-    height: 360px;
+    width: 100%;
     margin-bottom: 15px;
     border: 2px solid var(--textcolordark);
 }
@@ -114,4 +115,17 @@ body {
 
 .custom-shape-divider-bottom-1689086225 .shape-fill {
     fill: var(--fillcolor)
+}
+
+@media screen and (max-width:1250px) {
+    .about-us img {
+        max-width: 100%;
+    }
+    
+    .img-roll p {
+        max-width: 75%;
+        font-size: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

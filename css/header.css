@@ -12,6 +12,16 @@ header {
     display: none;
 }
 
+/* Used by Javascript to toggle alpha on scroll */
+.nav-background-light {
+    --background: rgba(0, 0, 0, .15);
+}
+
+/* Used by Javascript to toggle alpha on scroll */
+.nav-background-dark {
+    --background: rgba(0, 0, 0, .55);
+}
+
 .nav-toggle-label {
     position: absolute;
     top: 0;
