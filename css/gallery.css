@@ -36,22 +36,22 @@ body {
     color: #346eec;
 }
 
-.container .heading h3{
+.container .heading h3 {
     font-size: 3em;
     font-weight: normal;
     padding-bottom: 10px;
     border-bottom: 3px solid #346eec;
 }
 
-.container .heading span{
+.container .heading span {
     font-weight: 100;
 }
 
-.container h1{
+.container h1 {
     color: black;
 }
 
-.container .box{
+.container .box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
