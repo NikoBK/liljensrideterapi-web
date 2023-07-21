@@ -90,6 +90,13 @@ body {
     margin-bottom: 0;
 }
 
+.endpage .content {
+    max-width: 95%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Top page wave pattern */
 .wave {
     bottom: 0;
