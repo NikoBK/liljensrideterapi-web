@@ -89,23 +89,6 @@
                     </div>
                 </div>
 
-                <!-- Box 3 -->
-                <div class="blog-box">
-
-                    <div class="blog-img">
-                        <img src="images/gallery/img1.jpg" alt="blog">
-                    </div>
-
-                    <div class="blog-text">
-                        <span>20 Juli 2023 / NA</span>
-                        <a href="#" class="blog-title">Blogpost Titel</a>
-                        <p>
-                            Dette blogpost er for tiden ikke tilgændeligt.
-                        </p>
-                        <a href="#">Læs Mere</a>
-                    </div>
-                </div>
-
 
             </div>
         </section>
@@ -165,13 +148,12 @@
             navbar = document.getElementById("navbar");
                 window.addEventListener("scroll", function() {
                     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                    if (scrollTop < 300) {
-                        
-                        navbar.classList.remove('nav-background-dark');
-                        navbar.classList.add('nav-background-light');
-                    } else {
+                    if (scrollTop < 300) {        
                         navbar.classList.remove('nav-background-light');
                         navbar.classList.add('nav-background-dark');
+                    } else {
+                        navbar.classList.remove('nav-background-dark');
+                        navbar.classList.add('nav-background-light');
                     }
                 })
         </script>

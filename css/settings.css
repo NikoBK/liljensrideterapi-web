@@ -1,7 +1,7 @@
 :root {
     --backgroundcolor: rgb(222, 236, 255);
     --background: rgba(0, 0, 0, .15);
-    --vidbackground: rgba(0, 0, 0, .4);
+    --vidbackground: rgba(0, 0, 0, 0);
     --textcolor: #b6b6b6;
     --textbarcolor: #b1b1b1;
     --textcolordark: #2d2e33;
