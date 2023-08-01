@@ -161,7 +161,7 @@ body {
 
 .text-box-left p,
 .text-box-right p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .custom-shape-divider-bottom-1689086225 {
@@ -234,6 +234,11 @@ body {
         color: var(--textcolor);
     }
 
+    .img-left {
+        max-width: 400px;
+        max-height: 275px;
+    }
+
     .img-right {
         max-width: 400px;
         float: right;
@@ -245,7 +250,7 @@ body {
     .text-box-right {
         color: var(--textcolordark);
         text-align: right;
-        max-width: 400px;
+        max-width: 600px;
         float: right;
     }
 }
