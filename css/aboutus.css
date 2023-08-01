@@ -38,6 +38,12 @@ body {
     max-width: 60%;
 }
 
+.about-us h1 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--fillcolor);
+}
+
 .img-roll {
     display: flex;
     flex-direction: column;
