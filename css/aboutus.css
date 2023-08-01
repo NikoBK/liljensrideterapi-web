@@ -4,6 +4,11 @@
     --fillcolor: #deecff;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 html {
     height: 100%;
 }
@@ -42,6 +47,10 @@ body {
   font-size: 20px;
   padding-bottom: 10px;
   border-bottom: 3px solid var(--fillcolor);
+}
+
+.about-us p {
+  font-size: 1.2rem;
 }
 
 .img-roll {
@@ -121,6 +130,10 @@ body {
 
 .custom-shape-divider-bottom-1689086225 .shape-fill {
     fill: var(--fillcolor)
+}
+
+.contact-us p {
+  font-size: 1.2rem;
 }
 
 .contact-us-form {

@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+* {
+    padding: 0px;
+}
+
 html {
     height: 100%;
 }
 
 body {
     margin: 0;
+    /* Body background left out for curvature background. */
+    /* background: var(--backgroundcolor); */
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+
     min-height: 100%;
+
     display: flex;
     flex-direction: column;
 }
