@@ -168,6 +168,26 @@
         </footer>
 
         <!-- <script src="js/index.js"></script> -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            var btn = document.getElementById('customerOrder');
+            bt.addEventListener('click', function(e) {
+                var name = document.getElementById('customerName').value;
+                var email = document.getElementById('customerEmail').value;
+                var phone = document.getElementById('customerPhone').value;
+                var message = document.getElementById('customerNote').value;
+                var body = 'navn: ' + name + '<br/> something: ' + email + '<br/> something: ' + phone + '<br/> something: ' + message;
+
+                Email.send({
+                    SecureToken: "5d3f10c9-64ad-4f24-94bd-629c0603c7fd",
+                    To: 'liljensrideterapi@gmail.com',
+                    Subject: name,
+                    Body: body
+                }).then(
+                    message => alert(message)
+                );
+            })
+        </script>
         <script type="text/javascript">
             navbar = document.getElementById("navbar");
             navbar.classList.add('nav-background-dark');
