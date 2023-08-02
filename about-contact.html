@@ -168,15 +168,17 @@
         </footer>
 
         <!-- <script src="js/index.js"></script> -->
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
         <script>
             var btn = document.getElementById('customerOrder');
-            bt.addEventListener('click', function(e) {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault()
                 var name = document.getElementById('customerName').value;
                 var email = document.getElementById('customerEmail').value;
                 var phone = document.getElementById('customerPhone').value;
                 var message = document.getElementById('customerNote').value;
-                var body = 'navn: ' + name + '<br/> something: ' + email + '<br/> something: ' + phone + '<br/> something: ' + message;
+                var body = 'navn: ' + name + '<br/> email: ' + email + '<br/> telefon: ' + phone + '<br/> besked: ' + message;
 
                 Email.send({
                     SecureToken: "5d3f10c9-64ad-4f24-94bd-629c0603c7fd",
