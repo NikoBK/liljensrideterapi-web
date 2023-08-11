@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+
+:root {
+    --fillcolor: #deecff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    /* Body background left out for curvature background. */
+    /* background: var(--backgroundcolor); */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    height: 125px;
+    background-color: var(--fillcolor);
+}
+
+.page-top-section {
+    margin-top: 0;
+}
+
+.page-top-section {
+    background-color: white;
+}
+
+.about-us img {
+    max-width: 60%;
+}
+
+.about-us h1 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--fillcolor);
+}
+
+.about-us p {
+  font-size: 1.2rem;
+}
+
+.img-roll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 60px 0 60px;
+    background-color: white;
+}
+
+.img-roll .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-roll .box .imgrow{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.img-roll .box .imgrow img{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid var(--textcolordark);
+}
+
+.img-roll p {
+    max-width: 50%;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-bottom-content {
+    background-color: var(--fillcolor);
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 135px;
+}
+
+.wave .shape-fill {
+    fill: var(--fillcolor);
+}
+
+.custom-shape-divider-bottom-1689086225 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 .shape-fill {
+    fill: var(--fillcolor)
+}
+
+.contact-us p {
+  font-size: 1.2rem;
+}
+
+.contact-us-form {
+    background: var(--fillcolor);
+    padding: 50px 100px;
+    border-top: 10px solid #7e98be;
+  }
+  
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    font-size: 12pt;
+    line-height: 24pt;
+    font-family: "Spartan";
+  }
+  
+  input {
+    margin-bottom: 24pt;
+  }
+  
+  h3 {
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 24pt;
+    font-style: italic;
+    margin: 0 0 0.5em 0;
+  }
+  
+  span {
+    font-size: 8pt;
+  }
+  
+  em {
+    color: #7e98be;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background: white;
+    padding-left: 5px;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border: 1px solid #6bd4b1;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    display: block;
+    float: right;
+    line-height: 24pt;
+    padding: 0 20px;
+    border: none;
+    background: #7e98be;
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.2s all ease-in-out;
+    border-bottom: 2px solid transparent;
+    outline: none;
+  }
+  button:hover {
+    background: inherit;
+    color: #7e98be;
+    border-bottom: 2px solid #7e98be;
+  }
+  
+  ::selection {
+    background: #aabfdd;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus {
+    border: 1px solid #6bd4b1;
+    -webkit-text-fill-color: #2A293E;
+    -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+@media screen and (max-width:1250px) {
+    .about-us img {
+        max-width: 100%;
+    }
+    
+    .img-roll p {
+        max-width: 75%;
+        font-size: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

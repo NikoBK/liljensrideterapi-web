@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --backcolor: white;
+    --fillcolor: rgb(222, 236, 255);
+}
+
+.top-box {
+    height: 125px;
+    background-color: var(--fillcolor);
+}
+
+body {
+    background-color: var(--backcolor);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 50px;
+    color: black;
+    font-weight: normal;
+}
+
+.container .heading a{
+    color: #346eec;
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--fillcolor);
+}
+
+.container .heading span {
+    font-weight: 100;
+}
+
+.container h1 {
+    color: black;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .imgrow{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .imgrow img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid var(--fillcolor);
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+body span{
+    background-color: var(--fillcolor);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+.page-bottom-content {
+    background-color: var(--fillcolor);
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 135px;
+}
+
+.wave .shape-fill {
+    fill: var(--fillcolor);
+}
+
+.custom-shape-divider-bottom-1689086225 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689086225 .shape-fill {
+    fill: var(--fillcolor)
+}
