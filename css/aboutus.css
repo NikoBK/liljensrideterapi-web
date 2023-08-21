@@ -92,6 +92,15 @@ body {
     background-color: var(--fillcolor);
 }
 
+.map {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 .wave {
     bottom: 0;
     left: 0;
