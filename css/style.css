@@ -1,0 +1,10 @@
+:root {
+    --vidbox-color: rgba(0, 0, 0, 0);
+    --bg-blue: rgb(222, 236, 255);
+    --bg-white: white;
+    --text-color: #2d2e33;
+    --wave-color-light: white;
+    --wave-color-blue: rgb(222, 236, 255);
+    --img-outline-color: #2d2e33;
+}
+
