@@ -14,19 +14,13 @@ ul {
     list-style: none;
 }
 
-:root {
-    --backcolor: white;
-    --fillcolor: rgb(222, 236, 255);
-    --blog-text-color: rgb(92, 116, 151);
-}
-
 .top-box {
     height: 125px;
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
 }
 
 .page-top-section {
-    background-color: var(--backcolor);
+    background-color: var(--bg-white);
 }
 
 .prices-heading {
@@ -66,7 +60,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     padding: 60px 11px;
-    background-color:#ececec;
+    background-color:var(--price-box-color);
 }
 
 .price-box p {
@@ -74,7 +68,7 @@ body {
 }
 
 .page-bottom-section {
-    background-color: var(--backcolor);
+    background-color: var(--bg-white);
 }
 
 .container{
@@ -92,7 +86,7 @@ button{
     text-align: center;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid var(--fillcolor);
+    border: 2px solid var(--bg-blue);
     background: transparent;
     color: black;
     cursor: pointer;
@@ -101,7 +95,7 @@ button{
 }
 
 body span{
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -121,7 +115,7 @@ button:hover{
 }
 
 .bottom-box {
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
     height: 50px;
 }
 
@@ -141,7 +135,7 @@ button:hover{
 }
 
 .wave .shape-fill {
-    fill: var(--fillcolor);
+    fill: var(--bg-blue);
 }
 
 .custom-shape-divider-bottom-1689086225 {
@@ -162,7 +156,7 @@ button:hover{
 }
 
 .custom-shape-divider-bottom-1689086225 .shape-fill {
-    fill: var(--fillcolor)
+    fill: var(--bg-blue)
 }
 
 @media(max-width:1250px) {
@@ -188,7 +182,7 @@ button:hover{
         margin-right: 20px;
         margin-top: 30px;
         padding: 60px 11px;
-        background-color:#ececec;
+        background-color:var(--price-box-color);
     }
 
     .price-box h1 {
