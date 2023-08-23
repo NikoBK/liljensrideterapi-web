@@ -1,7 +1,7 @@
 /* navigation styles start here */
 
 header {
-    background: var(--background);
+    background: var(--header-color);
     text-align: center;
     position: fixed;
     z-index: 999;
@@ -10,16 +10,6 @@ header {
 
 .nav-toggle {
     display: none;
-}
-
-/* Used by Javascript to toggle alpha on scroll */
-.nav-background-light {
-    --background: rgba(0, 0, 0, .15);
-}
-
-/* Used by Javascript to toggle alpha on scroll */
-.nav-background-dark {
-    --background: rgba(0, 0, 0, .55);
 }
 
 .nav-toggle-label {
@@ -62,7 +52,7 @@ nav {
     text-align: left;
     top: 100%;
     left: 0;
-    background: var(--background);
+    background: var(--header-color);
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
@@ -90,7 +80,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--textcolor);
+    color: var(--text-color);
 }
 
 .nav-toggle:checked ~ nav {
@@ -145,7 +135,7 @@ nav a:hover {
         content: '';
         display: block;
         height: 2px;
-        background: var(--textbarcolor);
+        background: var(--text-color);
         position: absolute;
         bottom: -.5em;
         left: 0;

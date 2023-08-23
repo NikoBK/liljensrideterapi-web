@@ -10,10 +10,7 @@
     --input-outline: rgba(0, 0, 0, 0.1);
     --input-outline-focus: #7bd4b1;
     --blog-text-color: rgb(92, 116, 151);
-    --price-box-color: #ececec
-
-    /* SCRAPPED COLORS
-        aboutus(--fillcolor: #deecff)
-    */
+    --price-box-color: #ececec;
+    --header-color: rgba(0, 0, 0, 0.15);
 }
 
