@@ -12,5 +12,8 @@
     --blog-text-color: rgb(92, 116, 151);
     --price-box-color: #ececec;
     --header-color: rgba(0, 0, 0, 0.15);
+    --blog-box-color: white;
+    --blog-box-outline: #ececec;
+    --blog-title-color: #272727;
 }
 

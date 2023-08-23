@@ -12,19 +12,13 @@ ul {
     list-style: none;
 }
 
-:root {
-    --backcolor: white;
-    --fillcolor: rgb(222, 236, 255);
-    --blog-text-color: rgb(92, 116, 151);
-}
-
 .top-box {
     height: 125px;
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
 }
 
 .page-top-section {
-    background-color: var(--backcolor);
+    background-color: var(--bg-white);
 }
 
 body {
@@ -68,8 +62,8 @@ body {
 
 .blog-box {
     width: 350px;
-    background-color: white;
-    border: 1px solid #ececec;
+    background-color: var(--blog-box-color);
+    border: 1px solid var(--blog-box-outline);
     margin: 20px;
     height: 500px;
 }
@@ -101,7 +95,7 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
     max-height: 65px;
-    color: #272727;
+    color: var(--blog-title-color);
 }
 
 .blog-text .blog-title:hover {
@@ -130,11 +124,11 @@ body {
 }
 
 .page-bottom-section {
-    background-color: var(--backcolor);
+    background-color: var(--bg-white);
 }
 
 .bottom-box {
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
     height: 50px;
 }
 
@@ -154,7 +148,7 @@ body {
 }
 
 .wave .shape-fill {
-    fill: var(--fillcolor);
+    fill: var(--bg-blue);
 }
 
 .custom-shape-divider-bottom-1689086225 {
@@ -175,7 +169,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1689086225 .shape-fill {
-    fill: var(--fillcolor)
+    fill: var(--bg-blue)
 }
 
 @media(max-width:1250px) {
