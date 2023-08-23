@@ -6,5 +6,12 @@
     --wave-color-light: white;
     --wave-color-blue: rgb(222, 236, 255);
     --img-outline-color: #2d2e33;
+    --contact-form-outline: #7e98be;
+    --input-outline: rgba(0, 0, 0, 0.1);
+    --input-outline-focus: #7bd4b1;
+
+    /* SCRAPPED COLORS
+        aboutus(--fillcolor: #deecff)
+    */
 }
 

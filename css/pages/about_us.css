@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
 
-:root {
-    --fillcolor: #deecff;
-}
-
 * {
   margin: 0px;
   padding: 0px;
@@ -28,7 +24,7 @@ body {
 
 .top-box {
     height: 125px;
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
 }
 
 .page-top-section {
@@ -36,7 +32,7 @@ body {
 }
 
 .page-top-section {
-    background-color: white;
+    background-color: var(--bg-white);
 }
 
 .about-us img {
@@ -46,7 +42,7 @@ body {
 .about-us h1 {
   font-size: 20px;
   padding-bottom: 10px;
-  border-bottom: 3px solid var(--fillcolor);
+  border-bottom: 3px solid var(--bg-white);
 }
 
 .about-us p {
@@ -60,7 +56,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 0 60px 0 60px;
-    background-color: white;
+    background-color: var(--bg-white);
 }
 
 .img-roll .box{
@@ -78,7 +74,7 @@ body {
 .img-roll .box .imgrow img{
     width: 100%;
     margin-bottom: 15px;
-    border: 2px solid var(--textcolordark);
+    border: 2px solid var(--text-color);
 }
 
 .img-roll p {
@@ -89,13 +85,13 @@ body {
 }
 
 .page-bottom-content {
-    background-color: var(--fillcolor);
+    background-color: var(--bg-blue);
 }
 
 .map {
   display: flex;
   margin-left: auto;
-  background-color: var(--fillcolor);
+  background-color: var(--bg-blue);
   margin-right: auto;
   padding-top: 30px;
   justify-content: center;
@@ -119,7 +115,7 @@ body {
 }
 
 .wave .shape-fill {
-    fill: var(--fillcolor);
+    fill: var(--bg-blue);
 }
 
 .custom-shape-divider-bottom-1689086225 {
@@ -140,7 +136,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1689086225 .shape-fill {
-    fill: var(--fillcolor)
+    fill: var(--bg-blue)
 }
 
 .contact-us p {
@@ -148,9 +144,9 @@ body {
 }
 
 .contact-us-form {
-    background: var(--fillcolor);
+    background: var(--bg-blue);
     padding: 50px 100px;
-    border-top: 10px solid #7e98be;
+    border-top: 10px solid var(--contact-form-outline);
   }
   
   label, input, textarea {
@@ -178,21 +174,21 @@ body {
   }
   
   em {
-    color: #7e98be;
+    color: var(--contact-form-outline);
     font-weight: bold;
   }
   
   input, textarea {
     border: none;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--input-outline);
     border-radius: 2px;
-    background: white;
+    background: var(--bg-white);
     padding-left: 5px;
     outline: none;
   }
   
   input:focus, textarea:focus {
-    border: 1px solid #6bd4b1;
+    border: 1px solid var(--input-outline-focus);
   }
   
   textarea {
@@ -205,7 +201,7 @@ body {
     line-height: 24pt;
     padding: 0 20px;
     border: none;
-    background: #7e98be;
+    background: var(--contact-form-outline);
     color: white;
     letter-spacing: 2px;
     transition: 0.2s all ease-in-out;
@@ -215,7 +211,7 @@ body {
   button:hover {
     background: inherit;
     color: #7e98be;
-    border-bottom: 2px solid #7e98be;
+    border-bottom: 2px solid var(--contact-form-outline);
   }
   
   ::selection {
@@ -228,8 +224,8 @@ body {
   textarea:-webkit-autofill,
   textarea:-webkit-autofill:hover,
   textarea:-webkit-autofill:focus {
-    border: 1px solid #6bd4b1;
-    -webkit-text-fill-color: #2A293E;
+    border: 1px solid var(--input-outline-focus);
+    -webkit-text-fill-color: var(--text-color);
     -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
     transition: background-color 5000s ease-in-out 0s;
   }
