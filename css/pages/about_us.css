@@ -37,17 +37,18 @@ body {
 
 .about-us img {
     max-width: 60%;
+    border: 2px solid black;
 }
 
 .about-us h1 {
-  text-align: center;
-  align-items: center;
-  font-size: 60px;
-  margin-bottom:60px;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    margin-bottom:60px;
 }
 
 .about-us p {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .img-roll {
@@ -100,7 +101,7 @@ body {
   padding-bottom: 50px;
 }
 
-.wave {
+.top-wave {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -108,18 +109,18 @@ body {
     line-height: 0;
 }
 
-.wave svg {
+.top-wave svg {
     position: relative;
     display: block;
     width: calc(117% + 1.3px);
     height: 135px;
 }
 
-.wave .shape-fill {
+.top-wave .shape-fill {
     fill: var(--bg-blue);
 }
 
-.custom-shape-divider-bottom-1689086225 {
+.bottom-wave {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -128,7 +129,7 @@ body {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1689086225 svg {
+.bottom-wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -136,7 +137,7 @@ body {
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1689086225 .shape-fill {
+.bottom-wave .shape-fill {
     fill: var(--bg-blue)
 }
 
