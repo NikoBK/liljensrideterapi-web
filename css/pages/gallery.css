@@ -106,7 +106,7 @@ button:hover{
     background-color: var(--bg-blue);
 }
 
-.wave {
+.top-wave {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -114,18 +114,18 @@ button:hover{
     line-height: 0;
 }
 
-.wave svg {
+.top-wave svg {
     position: relative;
     display: block;
     width: calc(117% + 1.3px);
     height: 135px;
 }
 
-.wave .shape-fill {
+.top-wave .shape-fill {
     fill: var(--bg-blue);
 }
 
-.custom-shape-divider-bottom-1689086225 {
+.bottom-wave {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -134,7 +134,7 @@ button:hover{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1689086225 svg {
+.bottom-wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -142,6 +142,6 @@ button:hover{
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1689086225 .shape-fill {
+.bottom-wave .shape-fill {
     fill: var(--bg-blue)
 }

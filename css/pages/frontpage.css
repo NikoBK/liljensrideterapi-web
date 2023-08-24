@@ -79,7 +79,7 @@ body {
 }
 
 /* Top page wave pattern */
-.wave {
+.top-wave {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -88,14 +88,14 @@ body {
     transform: rotate(180deg);
 }
 
-.wave svg {
+.top-wave svg {
     position: relative;
     display: block;
     width: calc(117% + 1.3px);
     height: 135px;
 }
 
-.wave .shape-fill {
+.top-wave .shape-fill {
     fill: white;
 }
 
@@ -151,7 +151,7 @@ body {
     font-size: 20px;
 }
 
-.custom-shape-divider-bottom-1689086225 {
+.bottom-wave {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -160,7 +160,7 @@ body {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1689086225 svg {
+.bottom-wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -168,8 +168,8 @@ body {
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1689086225 .shape-fill {
-    fill: var(--wave-color-blue);;
+.bottom-wave .shape-fill {
+    fill: var(--wave-color-blue);
 }
 
 /* 3 Images near the page bottom */
