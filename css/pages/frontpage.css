@@ -78,27 +78,6 @@ body {
     margin-bottom: 0;
 }
 
-/* Top page wave pattern */
-.top-wave {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.top-wave svg {
-    position: relative;
-    display: block;
-    width: calc(117% + 1.3px);
-    height: 135px;
-}
-
-.top-wave .shape-fill {
-    fill: white;
-}
-
 /* Two images */
 .midpage {
     background-color: var(--bg-white);
@@ -149,27 +128,6 @@ body {
 .text-box-left p,
 .text-box-right p {
     font-size: 20px;
-}
-
-.bottom-wave {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.bottom-wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 130px;
-    transform: rotateY(180deg);
-}
-
-.bottom-wave .shape-fill {
-    fill: var(--wave-color-blue);
 }
 
 /* 3 Images near the page bottom */
