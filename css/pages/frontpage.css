@@ -110,7 +110,7 @@ body {
 }
 
 .img-left {
-    max-width: 300px;
+    max-width: 360px;
     float: left;
     border: 2px solid var(--img-outline-color);
     border-radius: 5px;
@@ -132,7 +132,7 @@ body {
 }
 
 .img-right {
-    max-width: 300px;
+    max-width: 360px;
     float: left;
     border: 2px solid var(--text-color);
     border-radius: 5px;
