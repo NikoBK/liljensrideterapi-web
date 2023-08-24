@@ -5,17 +5,13 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(../images/gallery/img35.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: rgb(222, 236, 255);
 }
 
 .content{
     display: block;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .content h1{
@@ -64,16 +60,16 @@ body span{
     margin: 0 20px 0 20px;
 }
 
-button{
+button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid rgb(222, 236, 255);
-    background: transparent;
-    color: white;
+    border: 2px solid rgb(122, 136, 155);
+    background: rgb(122, 136, 155);
+    color: black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -84,6 +80,5 @@ button:hover span{
 }
 
 button:hover{
-    border: none;
-    color: black;
+    color: white;
 }
