@@ -11,13 +11,9 @@ html {
 
 body {
     margin: 0;
-    /* Body background left out for curvature background. */
-    /* background: var(--backgroundcolor); */
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-
     min-height: 100%;
-
     display: flex;
     flex-direction: column;
 }
@@ -35,9 +31,20 @@ body {
     background-color: var(--bg-white);
 }
 
-.about-us img {
-    max-width: 60%;
+.about-us {
+    margin: 70px auto;
+    margin-top: 0;
+    width: 70%;
+}
+
+.about-us-img {
+    max-width: 600px;
+    float: left;
+    border: 2px solid var(--textcolordark);
+    border-radius: 5px;
     border: 2px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .about-us h1 {
@@ -49,6 +56,21 @@ body {
 
 .about-us p {
     font-size: 1.2rem;
+}
+
+.about-us-text {
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.about-us-text h2 {
+    font-size: 42px;
+}
+
+.about-us-text p {
+    font-size: 16px;
 }
 
 .img-roll {
@@ -150,89 +172,116 @@ body {
     padding: 50px 100px;
     border-top: 10px solid var(--contact-form-outline);
   }
+
+.contact-us {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    text-align: center;
+    color: black;
+}
+
+.contact-us h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.contact-us p {
+    margin-top: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
   
-  label, input, textarea {
+label, input, textarea {
     display: block;
     width: 100%;
     font-size: 12pt;
     line-height: 24pt;
     font-family: "Spartan";
-  }
+}
   
-  input {
+input {
     margin-bottom: 24pt;
-  }
+}
   
-  h3 {
+h3 {
     font-weight: normal;
     font-size: 10pt;
     line-height: 24pt;
     font-style: italic;
     margin: 0 0 0.5em 0;
-  }
+}
   
-  span {
+span {
     font-size: 8pt;
-  }
+}
   
-  em {
+em {
     color: var(--contact-form-outline);
     font-weight: bold;
-  }
+}
   
-  input, textarea {
+input, textarea {
     border: none;
     border: 1px solid var(--input-outline);
     border-radius: 2px;
     background: var(--bg-white);
     padding-left: 5px;
     outline: none;
-  }
+}
   
-  input:focus, textarea:focus {
+input:focus, textarea:focus {
     border: 1px solid var(--input-outline-focus);
-  }
+}
   
-  textarea {
+textarea {
     resize: none;
-  }
-  
-  button {
+}
+
+button {
     display: block;
     float: right;
-    line-height: 24pt;
-    padding: 0 20px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
     border: none;
+    border-radius: 25px;
     background: var(--contact-form-outline);
     color: white;
-    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bold;
     transition: 0.2s all ease-in-out;
-    border-bottom: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
     outline: none;
-  }
-  button:hover {
+    letter-spacing: 2px;
+}
+
+button:hover {
     background: inherit;
     color: #7e98be;
     border-bottom: 2px solid var(--contact-form-outline);
-  }
+}
   
-  ::selection {
+::selection {
     background: #aabfdd;
-  }
+}
   
-  input:-webkit-autofill,
-  input:-webkit-autofill:hover,
-  input:-webkit-autofill:focus,
-  textarea:-webkit-autofill,
-  textarea:-webkit-autofill:hover,
-  textarea:-webkit-autofill:focus {
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
     border: 1px solid var(--input-outline-focus);
     -webkit-text-fill-color: var(--text-color);
     -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
     transition: background-color 5000s ease-in-out 0s;
-  }
+}
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1250px) 
+{
     .about-us img {
         max-width: 100%;
     }
