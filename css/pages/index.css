@@ -55,6 +55,26 @@ body {
     background-color: var(--bg-blue);
 }
 
+.intro-img-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-img {
+    max-width: 600px;
+    float: left;
+    border: 2px solid var(--textcolordark);
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .content{
     display: block;
     text-align: center;
@@ -129,6 +149,53 @@ body {
 .text-box-left p,
 .text-box-right p {
     font-size: 20px;
+}
+
+.about-us {
+    background: var(--bg-blue);
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.about-us-img {
+    max-width: 600px;
+    float: left;
+    border: 2px solid var(--textcolordark);
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.about-us h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    margin-bottom:60px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+}
+
+.about-us-text {
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.about-us-text h2 {
+    font-size: 42px;
+}
+
+.about-us-text p {
+    font-size: 16px;
 }
 
 /* 3 Images near the page bottom */
