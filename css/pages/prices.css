@@ -119,7 +119,7 @@ button:hover{
     height: 50px;
 }
 
-@media(max-width:1250px) {
+@media(max-width:1750px) {
     .blog-box {
         width: 300px;
     }
