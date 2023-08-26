@@ -65,7 +65,7 @@ body {
 }
 
 .intro-img {
-    max-width: 600px;
+    max-width: 90%;
     float: left;
     border: 2px solid var(--textcolordark);
     border-radius: 5px;
@@ -152,7 +152,7 @@ body {
     font-size: 20px;
 }
 
-.about-us {
+.learn-more {
     background: var(--bg-blue);
     margin-top: 100px;
     align-items: center;
@@ -163,8 +163,8 @@ body {
     width: 70%;
 }
 
-.about-us-img {
-    max-width: 600px;
+.learn-more-img {
+    max-width: 100%;
     float: left;
     border: 2px solid var(--textcolordark);
     border-radius: 5px;
@@ -173,29 +173,29 @@ body {
     margin-right: 20px;
 }
 
-.about-us h1 {
+.learn-more h1 {
     text-align: center;
     align-items: center;
     font-size: 60px;
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
-.about-us p {
+.learn-more p {
     font-size: 1.2rem;
 }
 
-.about-us-text {
+.learn-more-text {
     color: black;
     margin-bottom: 20px;
     text-align: left;
     max-width: 100%;
 }
 
-.about-us-text h2 {
+.learn-more-text h2 {
     font-size: 42px;
 }
 
-.about-us-text p {
+.learn-more-text p {
     font-size: 16px;
 }
 
@@ -267,5 +267,13 @@ body {
         text-align: right;
         max-width: 600px;
         float: right;
+    }
+
+    .intro-img {
+        max-width: 600px;
+    }
+
+    .learn-more-img {
+        max-width: 600px;
     }
 }
