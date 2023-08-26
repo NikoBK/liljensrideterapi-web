@@ -119,6 +119,17 @@ button:hover{
     height: 50px;
 }
 
+.ruler {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
 @media(max-width:1750px) {
     .blog-box {
         width: 300px;
