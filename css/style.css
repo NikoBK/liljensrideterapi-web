@@ -1,6 +1,7 @@
 :root {
     --vidbox-color: rgba(0, 0, 0, 0);
     --bg-blue: rgb(222, 236, 255);
+    --bg-blue-bright: rgb(244, 258, 277);
     --bg-white: white;
     --text-color: #2d2e33;
     --wave-color-light: white;

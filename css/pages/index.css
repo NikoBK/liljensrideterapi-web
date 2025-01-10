@@ -110,6 +110,27 @@ body {
     margin-bottom: 0;
 }
 
+.review-box-roll {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.review-box {
+    display: inline-block;
+    width: 400px;
+    height: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 60px 11px;
+    background-color:var(--price-box-color);
+}
+.review-box h1{
+    font-size: 1.2rem;
+}
+.review-box p {
+    font-size: 1.2rem;
+}
+
 /* Two images */
 .midpage {
     background-color: var(--bg-white);
@@ -244,6 +265,59 @@ body {
     padding-bottom: 75px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-blue);
+}
+
+.box {
+    width: 400px;
+    height: 180px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--bg-white);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    text-align: left;
+}
+.box h1 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.review-stars {
+    font-size: 0.2rem;
+    font-style: bold;
+    text-align: right;
+    margin-top: -40px;
+    color: gold;
+}
+.review-recommendation {
+    font-size: 0.2rem;
+    font-style: bold;
+    text-align: right;
+    margin-top: -40px;
+    color: #f36a7e;
+}
+
+.clickable-box {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.clickable-box:hover .box {
+    transform: translateY(-2px);
+    bow-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
 /* Handle design on larger screens. */
 @media screen and (min-width: 1200px) {
     .vidbox {
@@ -287,4 +361,11 @@ body {
     .learn-more-img {
         max-width: 600px;
     }
+
+    .container {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+
 }
